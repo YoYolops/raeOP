@@ -1,23 +1,15 @@
-from bs4 import BeautifulSoup
-import requests
+inp = 'asdasdaadasdasdasdasd/123123123123'
 
-url = 'https://portal.ufcg.edu.br/graduacao/cursos-graduacao/1304-arquitetura-e-urbanismo.html'
+if '/' in inp:
+    inp = inp.split()
+    retorno.append(inp[0])
 
-print(f'Coletando e-mail de: {url}')
+    if len(inp[1]) > 0:
+        retorno.append(inp[1])
 
-nPage = requests.get(url)
+if inp[ len(inp) - 1 ] == '.':
+    retorno.append(inp[:-1])
 
-nSoup = BeautifulSoup(nPage.content, 'html.parser')
+print(retorno)
 
-brutus = nSoup.body.find('div', class_ = 'layout').main.div.find_all('div')[2].find('div', id = 'content').section.find('div', class_ = 'row-fluid').find('div', class_ = 'item-page').find_all('p')
 
-emails = []
-for i in brutus:
-    if '@' in i.text:
-        lTexto = i.text.split()
-
-        for j in lTexto:
-            if '@' in j:
-                emails.append(j)
-
-print(emails)
