@@ -1,6 +1,13 @@
 from bs4 import BeautifulSoup
 import requests
 
+""" def cleaner(address):
+    if '/' in address:
+        address = address.split()
+        
+        if len(adrress[1]) >  """
+
+
 
 urls = open('urls.txt', 'r')
 
@@ -20,11 +27,11 @@ for element in urls:
 
     for i in brutus:
 
-        if '@ufcg.edu.br' in i.text:
+        if '@' in i.text:
             lTexto = i.text.split()
 
             for j in lTexto:
-                if '@ufcg.edu.br' in j:
+                if '@' in j:
                     emails.append(j)
 
 urls.close()
