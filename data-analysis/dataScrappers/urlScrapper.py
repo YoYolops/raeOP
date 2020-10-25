@@ -7,7 +7,7 @@ print('Fazendo requisição HTTPs...')
 # Faz a requisição http
 page = requests.get('https://portal.ufcg.edu.br/graduacao.html')
 
-print('Mineirando as informações, aguarde...')
+print('Minerando as informações, aguarde...')
 # Cria a sopa de conteúdo HTML
 soup = BeautifulSoup(page.content, 'html.parser')
 
