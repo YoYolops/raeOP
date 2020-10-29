@@ -1,15 +1,14 @@
-inp = 'asdasdaadasdasdasdasd/123123123123'
 
-if '/' in inp:
-    inp = inp.split()
-    retorno.append(inp[0])
+email = open('urls.txt', 'r')
 
-    if len(inp[1]) > 0:
-        retorno.append(inp[1])
+grandao = NONE
+a = -1
+while a + 1 < len(email):
 
-if inp[ len(inp) - 1 ] == '.':
-    retorno.append(inp[:-1])
+    a += 1
 
-print(retorno)
+    if email[a] == email[a + 1]:
+        continue
 
+    print(email[a])
 
