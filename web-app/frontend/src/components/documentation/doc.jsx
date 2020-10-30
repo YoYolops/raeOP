@@ -1,6 +1,8 @@
 import React from 'react';
 import './doc.css';
 
+/* Componente para documentação da pesquisa, NÃO MEXER */
+
 function doc() {
     return (
         <>
