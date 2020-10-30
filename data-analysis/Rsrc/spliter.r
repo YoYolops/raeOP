@@ -1,0 +1,1 @@
+# Script para separação do dataframe em categorias pertinentes
