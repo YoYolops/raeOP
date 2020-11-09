@@ -4,7 +4,7 @@ library(stringr)
 
 # Script para separação do dataframe em categorias pertinentes
 
-exp <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/cobaia/incomplete.csv')
+exp <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/dados.csv')
 
 
 # RENOMEAR ALGUMAS COLUNAS
