@@ -17,9 +17,9 @@ names(exp)[1:4] <- c(
 exp$Período <- as.factor(exp$Período)
 
 # CRIANDO LISTAS COM OS VALORES A SEREM SEPARADOS NO FUTURO
-cursos <- list(levels(exp$Curso))
-periodos <- list(levels(exp$Período))
-campi <- list(levels(exp$Campus))
+cursos <- c(levels(exp$Curso))
+periodos <- c(levels(exp$Período))
+campi <- c(levels(exp$Campus))
 
 # SEPARADORA:
 
@@ -40,7 +40,28 @@ separadora <- function(dfEntrada, analiseCol, comparar){
     }
   }
   
-  as.data.frame(dfEntrada[c(val),])
+  case <- as.data.frame(dfEntrada[c(val),])
+  
+  string1 <- '~/Documentos/raeOP/data-analysis/Rsrc/'
+  string2 <- comparar
+  string3 <- '.csv'
+  
+  address <- str_c(string1, string2, string3)
+  
+  write.csv(case, address)
 }
+
+for (curso in cursos){
+  separadora(exp, exp$Curso, curso)
+}
+
+for (campus in campi){
+  separadora(exp, exp$Campus, campus)
+}
+
+
+
+
+
 
 
