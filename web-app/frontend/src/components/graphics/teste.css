@@ -1,0 +1,5 @@
+.caps {
+    display:flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
