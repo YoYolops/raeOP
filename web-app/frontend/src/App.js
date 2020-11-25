@@ -1,16 +1,13 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
-
 import './App.css';
-import Main from './components/Main.jsx';
+import DefaultPage from './components/DefaultPage';
+
 
 
 function App() {
   return (
     <>
-      <Switch>
-        <Route path="/main" component={Main} />
-      </Switch>
+      <DefaultPage></DefaultPage>
     </>
   );
 }
