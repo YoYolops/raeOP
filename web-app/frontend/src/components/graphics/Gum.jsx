@@ -1,8 +1,8 @@
 import React from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
-import './teste.css'
+import './Gum.css'
 
-const BarChart = () => {
+const Gum = () => {
     return (
         <div className="caps">
             <HorizontalBar 
@@ -108,4 +108,4 @@ const BarChart = () => {
     )
 };
 
-export default BarChart;
+export default Gum;

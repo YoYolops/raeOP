@@ -2,14 +2,14 @@ import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
 import './App.css';
-import Main from './components/Main.jsx';
+import Perfil from './components/Perfil.jsx';
 
 
 function App() {
   return (
     <>
       <Switch>
-        <Route path="/main" component={Main} />
+        <Route path="/main" component={Perfil} />
       </Switch>
     </>
   );
