@@ -1,8 +1,8 @@
 import React from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
-import './teste.css'
+import './Gum.css'
 
-const BarChart = () => {
+const Gum = () => {
     return (
         <div className="caps">
             <HorizontalBar 
@@ -21,7 +21,7 @@ const BarChart = () => {
                         'Ciências Econômicas', 'Engenharia de Minas', 'Engenharia de Materiais',
                         'Engenharia de Biotecnologia e Bioprocessos', 'Ciências Contábeis',
                         'Gestão Pública', 'Engenharia de Biossistemas', 'Comunicação Social'
-                ],
+                    ],
 
                     datasets: [
                         {
@@ -43,14 +43,14 @@ const BarChart = () => {
                                 0.45, 0.45, 0.38, 0.32, 0.32, 0.32, 0.26, 0.26, 0.26, 0.19, 0.13, 0.13, 0.13, 0.13,
                                 0.06, 0.06, 0.06
                             ],
-                            backgroundColor: '#00ff08',
+                            backgroundColor: '#1DB954',
                             barThickness: 'flex',
                         },
                     ],
 
             
                 }}
-                height = {1000}
+                height = {1500}
                 width = {400}
                 options = {{
                     maintainAspectRatio: false,
@@ -63,6 +63,7 @@ const BarChart = () => {
                         display: true,
                         labels: {
                             fontSize: 15,
+                            fontColor: "white",
                         },
                     },
 
@@ -71,6 +72,7 @@ const BarChart = () => {
                         padding: 10,
                         text: "Nº de Respondentes",
                         fontSize: 25,
+                        fontColor: "#d3d3d3"
                     },
 
                     scales: {
@@ -81,8 +83,11 @@ const BarChart = () => {
                                 },
 
                                 ticks: {
-                                    beginAtZero: true
+                                    beginAtZero: true,
+                                    fontSize: 14,
+                                    fontColor: "#d3d3d3"
                                 },
+
                             },
                         ],
 
@@ -103,4 +108,4 @@ const BarChart = () => {
     )
 };
 
-export default BarChart;
+export default Gum;

@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import DefaultPage from './components/DefaultPage';
-
-
+import Perfil from './components/Perfil.jsx';
 
 function App() {
   return (
     <>
-      <DefaultPage></DefaultPage>
+      <Switch>
+        <Route path="/main" component={Perfil} />
+      </Switch>
     </>
   );
 }
