@@ -31,7 +31,9 @@ for (i in cursos){
   print(i)
 }
 
-tt1 <- sort(summary(exp$Período), decreasing = TRUE)
+tt1 <- sort(summary(exp$Campus), decreasing = TRUE)
 tt2 <- sort(summary(exp$Curso), decreasing = TRUE)
+###
 
+p3 <- summary(exp[,5])
 
