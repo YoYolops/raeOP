@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../NavBar';
-import BarChart from '../Graphs/BarChart';
 import './DefaultPage.css';
 
 const DefaultPage = (props) => {

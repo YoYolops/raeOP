@@ -30,3 +30,8 @@ label <- NULL
 for (i in cursos){
   print(i)
 }
+
+tt1 <- sort(summary(exp$Período), decreasing = TRUE)
+tt2 <- sort(summary(exp$Curso), decreasing = TRUE)
+
+
