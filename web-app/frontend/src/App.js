@@ -1,9 +1,7 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
-
 import './App.css';
+import DefaultPage from './components/DefaultPage';
 import Perfil from './components/Perfil.jsx';
-
 
 function App() {
   return (
