@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Switch>
-        <Route path="/main" component={DefaultPage} />
+        <Route path="/main" component={Perfil} />
       </Switch>
     </>
   );

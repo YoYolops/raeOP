@@ -7,7 +7,7 @@ const Gdois = () => {
             <Bar
                 data = {{
                     labels: [
-                        '1º', '5º', '3º', '7º', '2º', '4º', '6º', '8º', '9º', '10º+'
+                        '1º', '5º', '3º', '7º', '2º', '4º', '6º', '8º', '9º', '10º +'
                     ],
 
                     datasets: [
@@ -21,8 +21,8 @@ const Gdois = () => {
                     ],
                 }}
 
-                height={800}
-                width={400}
+                height={600}
+                width={100}
                 options={{
                     maintainAspectRatio: false,
 
@@ -45,8 +45,18 @@ const Gdois = () => {
                     scales: {
                         yAxes:[
                             {
+                                display: false,
                                 gridLines: {
                                     color: "rgba(0, 0, 0, 0)",
+                                },
+                            },
+                        ],
+
+                        xAxes:[
+                            {
+                                display: true,
+                                gridLines: {
+                                    color: "rgba(0,0,0,0)",
                                 },
 
                                 ticks: {
@@ -54,19 +64,8 @@ const Gdois = () => {
                                     fontSize: 14,
                                     fontColor: "#d3d3d3"
                                 },
-
-                            },
-                        ],
-
-                        xAxes:[
-                            {
-                                display: false,
-                                gridLines: {
-                                    color: "rgba(0,0,0,0)",
-                                },
                             }
                         ],
-
                     },
                 }}
             />
