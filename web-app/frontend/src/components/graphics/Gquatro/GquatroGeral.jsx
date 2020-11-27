@@ -3,7 +3,7 @@ import { HorizontalBar } from 'react-chartjs-2';
 
 /* Gráfico da pergunta 4 GERAL */
 
-const Gquatro = () => {
+const GquatroGeral = () => {
     return(
         <div className="gquatro">
             <HorizontalBar 
@@ -76,4 +76,4 @@ const Gquatro = () => {
     )
 };
 
-export default Gquatro;
+export default GquatroGeral;

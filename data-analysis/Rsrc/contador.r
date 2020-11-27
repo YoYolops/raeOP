@@ -35,5 +35,5 @@ tt1 <- sort(summary(exp$Campus), decreasing = TRUE)
 tt2 <- sort(summary(exp$Curso), decreasing = TRUE)
 ###
 
-p3 <- summary(exp[,5])
-
+p41 <- summary(exp[,5])
+p42 <- 
