@@ -1,0 +1,27 @@
+.dafault_page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-default);
+}
+
+.main {
+    width: 75%;
+    height: 100%;
+}
+
+.nav {
+    width: 20%;
+}
+
+@media screen and (max-width: 650px){
+    .dafault_page {
+        display: flex;;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+}

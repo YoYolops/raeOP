@@ -7,7 +7,8 @@ import './Gum.css'
 const Gum = () => {
     return (
         <div className="gum">
-            <HorizontalBar 
+            <HorizontalBar
+                className='graph'
                 data = {{
                     labels: [
                         'Direito', 'Engenharia Civil', 'Ciência da Computação',
@@ -35,7 +36,7 @@ const Gum = () => {
                             ],
                             backgroundColor: '#EEAD2D',
                             barThickness: 'flex',
-                        },
+                    },
 
                         {
                             label: "Porcentagem",
@@ -52,11 +53,10 @@ const Gum = () => {
 
             
                 }}
-                height = {1500}
+                height = {950}
                 width = {400}
                 options = {{
                     maintainAspectRatio: false,
-
                     layout: {
                         padding: 60,
                     },
@@ -65,7 +65,8 @@ const Gum = () => {
                         display: true,
                         labels: {
                             fontSize: 15,
-                            fontColor: "white",
+                            fontColor: "#e6e7ea",
+                            fontFamily: 'Roboto',
                         },
                     },
 
@@ -74,7 +75,8 @@ const Gum = () => {
                         padding: 10,
                         text: "Nº de Respondentes",
                         fontSize: 25,
-                        fontColor: "#d3d3d3"
+                        fontColor: "#e6e7ea",
+                        fontFamily: 'Roboto',
                     },
 
                     scales: {
@@ -86,9 +88,12 @@ const Gum = () => {
 
                                 ticks: {
                                     beginAtZero: true,
-                                    fontSize: 14,
-                                    fontColor: "#d3d3d3"
+                                    fontSize: 16,
+                                    fontColor: "#e6e7ea",
+                                    fontFamily: 'Roboto',
                                 },
+
+                                barThickness: 10,
 
                             },
                         ],

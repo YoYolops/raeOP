@@ -5,8 +5,8 @@ export const MenuItems = [
         cName: 'nav-link'
     },
     {
-        title: 'Developer Profile',
-        url: '#developer_profile',
+        title: 'Perfil do Respondente',
+        url: '#estudent_profile',
         cName: 'nav-link',
     },
     {
