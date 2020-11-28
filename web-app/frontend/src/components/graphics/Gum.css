@@ -1,5 +1,9 @@
 .gum {
     display:flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
+}
+
+.graph{
+    width: 100vw;
 }
