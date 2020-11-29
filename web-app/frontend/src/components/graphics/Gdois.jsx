@@ -7,22 +7,24 @@ const Gdois = () => {
             <Bar
                 data = {{
                     labels: [
-                        '1º', '5º', '3º', '7º', '2º', '4º', '6º', '8º', '9º', '10º+'
+                        '1º', '5º', '3º', '7º', '2º', '4º', '6º', '8º', '9º', '10º +'
                     ],
 
                     datasets: [
                         {
+                            label: "Quantidade",
                             data: [
                                 273, 254, 253, 167, 155, 136, 105, 95, 74, 55 
                             ],
                             backgroundColor: "#EEAD2D",
                             barThickness: "flex",
+                            hoverBackgroundColor: "#b8831c",
                         },
                     ],
                 }}
 
-                height={800}
-                width={400}
+                height={600}
+                width={100}
                 options={{
                     maintainAspectRatio: false,
 
@@ -32,6 +34,11 @@ const Gdois = () => {
 
                     legend: {
                         display: false,
+                        labels: {
+                            fontSize: 15,
+                            fontColor: "white",
+                            fontFamily: "roboto",
+                        },
                     },
 
                     title: {
@@ -39,36 +46,47 @@ const Gdois = () => {
                         padding: 10,
                         text: "Nº de Respondentes/Período",
                         fontSize: 25,
-                        fontColor: "#d3d3d3"
+                        fontColor: "#d3d3d3",
+                        fontFamily: "roboto",
                     },
 
                     scales: {
                         yAxes:[
                             {
+                                display: false,
                                 gridLines: {
                                     color: "rgba(0, 0, 0, 0)",
                                 },
-
-                                ticks: {
-                                    beginAtZero: true,
-                                    fontSize: 14,
-                                    fontColor: "#d3d3d3"
-                                },
-
                             },
                         ],
 
                         xAxes:[
                             {
+                                display: true,
                                 ticks: {
                                     beginAtZero: true,
                                     fontSize: 16,
                                     fontColor: "#e6e7ea",
                                     fontFamily: 'Roboto',
                                 },
+
+                                gridLines: {
+                                    color: "rgba(0,0,0,0)",
+                                },
+
+                                ticks: {
+                                    beginAtZero: true,
+                                    fontSize: 14,
+                                    fontColor: "#d3d3d3",
+                                    fontStyle: 'bold',
+                                    fontFamily: "roboto",
+                                },
                             }
                         ],
+                    },
 
+                    tooltips: {
+                        mode: 'index',
                     },
                 }}
             />

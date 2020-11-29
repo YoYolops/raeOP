@@ -1,6 +1,5 @@
 import React from 'react';
 import { HorizontalBar } from 'react-chartjs-2';
-import './Gum.css'
 
 /* Gráfico 1: de Perfil dos Respondentes - Por Curso */
 
@@ -62,12 +61,13 @@ const Gum = () => {
                     },
 
                     legend: {
-                        display: true,
-                        labels: {
+                        display: false,
+/*                         labels: {
                             fontSize: 15,
                             fontColor: "#e6e7ea",
                             fontFamily: 'Roboto',
                         },
+*/
                     },
 
                     title: {
@@ -106,9 +106,7 @@ const Gum = () => {
                                 },
                             }
                         ],
-
                     },
-
                 }}
             />
         </div>
