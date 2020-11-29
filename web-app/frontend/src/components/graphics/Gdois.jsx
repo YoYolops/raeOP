@@ -60,9 +60,11 @@ const Gdois = () => {
 
                         xAxes:[
                             {
-                                display: false,
-                                gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                ticks: {
+                                    beginAtZero: true,
+                                    fontSize: 16,
+                                    fontColor: "#e6e7ea",
+                                    fontFamily: 'Roboto',
                                 },
                             }
                         ],

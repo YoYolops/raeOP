@@ -2,13 +2,14 @@
     font-family: 'Origami Making';
     src: url('../../../assets/fonts/origami_making.ttf');
 }
+
 .landing {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
-.landing section {
+#sec-curve {
     position: relative;
-    width: 100%;
+    width: 10%;
     height: 100%;
 }
 #curve{
@@ -21,6 +22,7 @@
 #curve path{
     fill: #26292c;
 }
+
 .title-page{
     position: absolute;
     left: 0;

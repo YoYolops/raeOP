@@ -1,8 +1,7 @@
 .dafault_page {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    display: grid;
+    width: 100%;
+    height: 100%;
     background-color: var(--bg-default);
 }
 
@@ -13,12 +12,10 @@
 
 .nav {
     width: 20%;
+    position: fixed !important;
 }
 
 @media screen and (max-width: 650px){
-    .dafault_page {
-        display: flex;;
-    }
 
     .main{
         width: 100%;

@@ -11,19 +11,19 @@ const Gum = () => {
                 className='graph'
                 data = {{
                     labels: [
-                        'Direito', 'Engenharia Civil', 'Ciência da Computação',
-                        'Engenharia Elétrica', 'Geografia', 'Ciências Biológicas',
+                        'Direito', 'Eng Civil', 'Ciência da Computação',
+                        'Eng Elétrica', 'Geografia', 'Ciências Biológicas',
                         'Nutrição', 'Farmácia', 'Enfermagem', 'Matemática', 'História',
                         'Medicina', 'Design', 'Química', 'Administração',
-                        'Engenharia de Petróleo', 'Arte e Mídia', 'Letras', 'Estatística',
-                        'Engenharia Ambiental', 'Psicologia', 'Engenharia de Alimentos',
-                        'Engenharia Mecânica', 'Física', 'Filosofia', 'Engenharia Florestal',
-                        'Engenharia Agrícola', 'Engenharia Química', 'Engenharia de Produção',
+                        'Eng de Petróleo', 'Arte e Mídia', 'Letras', 'Estatística',
+                        'Eng Ambiental', 'Psicologia', 'Eng de Alimentos',
+                        'Eng Mecânica', 'Física', 'Filosofia', 'Eng Florestal',
+                        'Eng Agrícola', 'Eng Química', 'Eng de Produção',
                         'Pedagogia', 'Ciências Sociais', 'Arquitetura e Urbanismo', 'Agronomia',
                         'Odontologia', 'Meteorologia', 'Medicina Veterinária',
-                        'Ciências Econômicas', 'Engenharia de Minas', 'Engenharia de Materiais',
-                        'Engenharia de Biotecnologia e Bioprocessos', 'Ciências Contábeis',
-                        'Gestão Pública', 'Engenharia de Biossistemas', 'Comunicação Social'
+                        'Ciências Econômicas', 'Eng de Minas', 'Eng de Materiais',
+                        'Eng de Biotecnologia e Bioprocessos', 'Ciências Contábeis',
+                        'Gestão Pública', 'Eng de Biossistemas', 'Comunicação Social'
                     ],
 
                     datasets: [

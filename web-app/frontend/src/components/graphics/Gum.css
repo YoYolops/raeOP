@@ -7,3 +7,10 @@
 .graph{
     width: 100vw;
 }
+
+@media screen and (max-width: 650px){
+    .gum {
+        margin: 0 0%;
+        width: 100%;
+    }
+}

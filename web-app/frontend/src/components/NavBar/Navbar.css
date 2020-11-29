@@ -116,6 +116,7 @@
         opacity: 1;
         z-index: 1;
         left: 0;
+        position: fixed;
     }
 
     .listItem{
@@ -140,7 +141,7 @@
         border-radius: 50%;
         right: 0;
         cursor: pointer;
-        margin: 10% 10%;
+        margin: 15% 10%;
         box-shadow: 2px 2px 2px #999;
         position: fixed !important;
         z-index: 2;
