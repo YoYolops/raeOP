@@ -6,16 +6,6 @@ import { HorizontalBar } from 'react-chartjs-2';
 const GquatroPeriodo = () => {
     return(
         <div>
-            <HorizontalBar
-                data={{
-                    labels: [],
-                }}
-                height={}
-                width={}
-                options={{
-
-                }}
-            />
         </div>
     );
 };
