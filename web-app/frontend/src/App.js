@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
-import { Switch, Route } from 'react-router-dom';
-import DefaultPage from './components/DefaultPage/index.js';
-import Perfil from './components/Perfil.jsx';
+import DefaultPage from './components/Pages/DefaultPage';
+import LandingPage from './components/Pages/LandingPage';
+import Profile from './components/Pages/Perfil';
 
 function App() {
   return (
-    <>
-      <Switch>
-        <Route path="/main" component={Perfil} />
-      </Switch>
-    </>
+    <DefaultPage>
+      <LandingPage />
+      <Profile />
+    </DefaultPage>
   );
 }
 

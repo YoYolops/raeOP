@@ -1,6 +1,6 @@
 
 .NavbarItems {
-    background-color: #1c1f23;
+    background-color: var(--bg-navbar);
     height: 100vh;
     width: 400px;
     display: flex;
@@ -27,14 +27,14 @@
     border-top: none
 }
 .nav-link {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 22px;
     font-family: 'Roboto Slab', serif;
 }
 
 .nav-link:hover{
-    color: #fca311;
+    color: var(--orange);
     border-radius: 4px;
     transition: all 0.2 ease-out
 }
@@ -107,7 +107,6 @@
         flex-direction: column;
         width: 100vw;
         height: 100vh;
-        position: absolute;
         left: -500%;
         opacity: 1;
     }
@@ -117,10 +116,12 @@
         opacity: 1;
         z-index: 1;
         left: 0;
+        position: fixed;
     }
 
     .listItem{
         margin: 0 10%;
+
     }
     .nav-link {
         padding: .1rem 0;
@@ -142,7 +143,7 @@
         cursor: pointer;
         margin: 10% 10%;
         box-shadow: 2px 2px 2px #999;
-        position: absolute !important;
+        position: fixed !important;
         z-index: 2;
     }
 
