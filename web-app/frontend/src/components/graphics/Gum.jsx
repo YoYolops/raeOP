@@ -21,7 +21,7 @@ const Gum = () => {
                         'Pedagogia', 'Ciências Sociais', 'Arquitetura e Urbanismo', 'Agronomia',
                         'Odontologia', 'Meteorologia', 'Medicina Veterinária',
                         'Ciências Econômicas', 'Eng de Minas', 'Eng de Materiais',
-                        'Eng de Biotecnologia e Bioprocessos', 'Ciências Contábeis',
+                        'Eng de Biotec. e Bioprocessos', 'Ciências Contábeis',
                         'Gestão Pública', 'Eng de Biossistemas', 'Comunicação Social'
                     ],
 
@@ -36,19 +36,7 @@ const Gum = () => {
                             backgroundColor: '#EEAD2D',
                             barThickness: 'flex',
                     },
-
-                        {
-                            label: "Porcentagem",
-                            data: [
-                                8.81, 8.17, 7.28, 7.15, 6.32, 5.87, 5.74, 5.23, 4.66, 4.53, 4.21, 4.02, 3.38,
-                                2.94, 2.43, 2.36, 2.17, 1.6, 1.6, 1.6, 1.53, 1.53, 0.77, 0.64, 0.57, 0.51, 0.51,
-                                0.45, 0.45, 0.38, 0.32, 0.32, 0.32, 0.26, 0.26, 0.26, 0.19, 0.13, 0.13, 0.13, 0.13,
-                                0.06, 0.06, 0.06
-                            ],
-                            backgroundColor: '#1DB954',
-                            barThickness: 'flex',
-                        },
-                    ],
+                ],
 
             
                 }}
@@ -82,13 +70,15 @@ const Gum = () => {
                     scales: {
                         yAxes:[
                             {
+                                barPercentage: 1,
+
                                 gridLines: {
                                     color: "rgba(0, 0, 0, 0)",
                                 },
 
                                 ticks: {
                                     beginAtZero: true,
-                                    fontSize: 16,
+                                    fontSize: 14,
                                     fontColor: "#e6e7ea",
                                     fontFamily: 'Roboto',
                                 },
