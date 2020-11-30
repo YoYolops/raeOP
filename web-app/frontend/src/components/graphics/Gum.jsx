@@ -59,7 +59,7 @@ const Gum = () => {
 
                     title: {
                         display: true,
-                        padding: 10,
+                        padding: 20,
                         text: "Nº de Respondentes",
                         fontSize: 25,
                         fontColor: "#e6e7ea",

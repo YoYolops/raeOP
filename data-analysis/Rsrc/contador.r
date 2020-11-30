@@ -36,4 +36,4 @@ tt2 <- sort(summary(exp$Curso), decreasing = TRUE)
 ###
 
 p41 <- summary(exp[,5])
-p42 <- 
+Gtres <- summary(exp[,4])
