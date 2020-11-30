@@ -6,7 +6,7 @@
 }
 
 .main {
-    width: 75%;
+    width: 70%;
     height: 100%;
 }
 
@@ -18,7 +18,7 @@
 @media screen and (max-width: 650px){
 
     .main{
-        width: 100%;
+        width: 90%;
     }
 
 }

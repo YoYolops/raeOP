@@ -5,7 +5,7 @@ import { HorizontalBar } from 'react-chartjs-2';
 
 const Gum = () => {
     return (
-        <div className="gum">
+        <div className="gContainer" id="g1">
             <HorizontalBar
                 className='graph'
                 data = {{
@@ -41,7 +41,7 @@ const Gum = () => {
             
                 }}
                 height = {950}
-                width = {400}
+                width = {100}
                 options = {{
                     maintainAspectRatio: false,
                     layout: {

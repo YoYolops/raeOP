@@ -3,7 +3,7 @@ import { HorizontalBar } from 'react-chartjs-2';
 
 const Gdois = () => {
     return (
-        <div className="gdois">
+        <div className="gContainer" id="g2">
             <HorizontalBar
                 data = {{
                     labels: [
