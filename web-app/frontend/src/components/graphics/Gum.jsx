@@ -21,7 +21,7 @@ const Gum = () => {
                         'Pedagogia', 'Ciências Sociais', 'Arquitetura e Urbanismo', 'Agronomia',
                         'Odontologia', 'Meteorologia', 'Medicina Veterinária',
                         'Ciências Econômicas', 'Eng de Minas', 'Eng de Materiais',
-                        'Eng de Biotec. e Bioprocessos', 'Ciências Contábeis',
+                        'Eng de Biotec. e Bioproc.', 'Ciências Contábeis',
                         'Gestão Pública', 'Eng de Biossistemas', 'Comunicação Social'
                     ],
 
@@ -34,13 +34,12 @@ const Gum = () => {
                                 5, 5, 4, 4, 4, 3, 2, 2, 2, 2, 1, 1, 1
                             ],
                             backgroundColor: '#EEAD2D',
-                            barThickness: 'flex',
                     },
                 ],
 
             
                 }}
-                height = {950}
+                height = {1550}
                 width = {100}
                 options = {{
                     maintainAspectRatio: false,
@@ -83,8 +82,7 @@ const Gum = () => {
                                     fontFamily: 'Roboto',
                                 },
 
-                                barThickness: 10,
-
+                                barThickness: 23,
                             },
                         ],
 

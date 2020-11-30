@@ -6,7 +6,7 @@ import './Profile.css';
 const Profile = () => {
     return(
         <div>
-            <Gum className="graph1"/>
+            <Gum />
             <Gdois />
         </div>
     )

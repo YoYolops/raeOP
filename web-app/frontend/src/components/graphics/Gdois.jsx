@@ -23,7 +23,7 @@ const Gdois = () => {
                     ],
                 }}
 
-                height={400}
+                height={500}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -57,6 +57,8 @@ const Gdois = () => {
                                 gridLines: {
                                     color: "rgba(0, 0, 0, 0)",
                                 },
+
+                                barThickness: 23,
 
                                 ticks: {
                                     beginAtZero: true,

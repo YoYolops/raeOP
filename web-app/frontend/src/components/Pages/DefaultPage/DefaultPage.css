@@ -18,7 +18,11 @@
 @media screen and (max-width: 650px){
 
     .main{
-        width: 90%;
+        width: 100%;
     }
 
+}
+
+.default_page .main #g1 {
+    height: 1550px;
 }
