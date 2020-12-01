@@ -9,6 +9,8 @@ import GnoveGeral from '../../graphics/RaeOpinionGraphics/Gnove/GnoveGeral';
 import Gdez from '../../graphics/RaeOpinionGraphics/Gdez'
 import Gdoze from '../../graphics/RaeOpinionGraphics/Gdoze'
 
+/* Este componente traz todos os gráficos que dizem respeito ao RAE */
+
 const RaeOpinion = () => {
     return (
         <div>
