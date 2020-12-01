@@ -37,3 +37,14 @@ tt2 <- sort(summary(exp$Curso), decreasing = TRUE)
 
 p41 <- summary(exp[,5])
 Gtres <- summary(exp[,4])
+Gcinco <- summary(exp[,6])
+Gseis <- summary(exp[,7])
+Gsete <- summary(exp[,8])
+Goito <- summary(exp[,9])
+GnoveGeral <- summary(exp[,10])
+Gdez <- summary(exp[,11])
+Gonze <- 
+Gdoze <- summary(exp[,13])
+
+
+

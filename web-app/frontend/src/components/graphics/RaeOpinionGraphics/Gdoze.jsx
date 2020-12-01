@@ -1,61 +1,61 @@
 import React from 'react';
-import { HorizontalBar } from 'react-chartjs-2';
+import { HorizontalBar } from 'react-chartjs-2'
 
-const Gtres = () => {
+/* No geral, você acha que essas dificuldades prejudicam o seu desempenho? */
+
+const Gdoze= () => {
     return (
-        <div className="gtres">
+        <div className="gContainer" id="g12">
             <HorizontalBar
                 data={{
                     labels: [
-                        "Campina Grande", "Cuité", "Cajazeiras",
-                        "Pombal", "Sousa", "Patos", "Sumé"
+                        'Sim', 'Não', ['Não Passo Por', 'Essas Dificuldades'], 'Não responderam'
                     ],
-                
+                    
                     datasets: [
                         {
-                            data: [575, 377, 238, 161, 149, 61, 6],
-                            backgroundColor: "#EEAD2D",
+                            data: [1148, 179, 165, 75],
+                            backgroundColor: '#EEAD2D',
+                            barThickness: 'flex',
                             hoverBackgroundColor: "#b8831c",
                         },
                     ],
                 }}
-                height={450}
+                height={325}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
-
                     layout: {
                         padding: 60,
                     },
 
                     legend: {
                         display: false,
-                        labels: {
+        /*                         labels: {
                             fontSize: 15,
-                            fontColor: "white",
-                            fontFamily: "roboto",
+                            fontColor: "#e6e7ea",
+                            fontFamily: 'Roboto',
                         },
-                        position: "right",
+        */
                     },
 
                     title: {
                         display: true,
-                        padding: 30,
-                        text: "Nº de Respondentes/Campi",
+                        padding: 20,
+                        text: "Afetam seu desempenho?",
                         fontSize: 25,
-                        fontColor: "#d3d3d3",
-                        fontFamily: "roboto",
+                        fontColor: "#e6e7ea",
+                        fontFamily: 'Roboto',
                     },
 
                     scales: {
                         yAxes:[
                             {
-                                display: true,
+                                barPercentage: 1,
+
                                 gridLines: {
                                     color: "rgba(0, 0, 0, 0)",
                                 },
-
-                                barThickness: 23,
 
                                 ticks: {
                                     beginAtZero: true,
@@ -63,29 +63,24 @@ const Gtres = () => {
                                     fontColor: "#e6e7ea",
                                     fontFamily: 'Roboto',
                                 },
+
+                                barThickness: 23,
                             },
                         ],
 
                         xAxes:[
                             {
                                 display: false,
-                                ticks: {
-                                    beginAtZero: true,
-                                    fontSize: 14,
-                                    fontColor: "#e6e7ea",
-                                    fontFamily: 'Roboto',
-                                },
-
                                 gridLines: {
                                     color: "rgba(0,0,0,0)",
                                 },
-                            },
+                            }
                         ],
                     },
                 }}
-            />     
+            />
         </div>
     );
 };
 
-export default Gtres;
+export default Gdoze;

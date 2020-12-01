@@ -1,7 +1,7 @@
 import React from 'react';
-import Gum from '../../graphics/Gum';
-import Gdois from '../../graphics/Gdois';
-import Gtres from '../../graphics/Gtres';
+import Gum from '../../graphics/ProfileGraphics/Gum';
+import Gdois from '../../graphics/ProfileGraphics/Gdois';
+import Gtres from '../../graphics/ProfileGraphics/Gtres';
 import './Profile.css';
 
 const Profile = () => {

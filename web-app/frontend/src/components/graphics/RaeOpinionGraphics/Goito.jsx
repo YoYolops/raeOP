@@ -1,48 +1,58 @@
 import React from 'react';
-import { HorizontalBar } from 'react-chartjs-2';
+import { HorizontalBar } from 'react-chartjs-2'
 
-/* Gráfico da pergunta 4 GERAL */
+/* Na sua opinião, a qualidade do ensino no RAE, em comparação com o presencial, é: */
 
-const GquatroGeral = () => {
-    return(
-        <div className="gquatro">
-            <HorizontalBar 
+const Goito= () => {
+    return (
+        <div className="gContainer" id="g8">
+            <HorizontalBar
                 data={{
-                    labels: ["Sim", "Não", "Não Responderam"],
+                    labels: [
+                        'Melhor', 'Igual', 'Pior', 'Não Responderam'
+                    ],
+                    
                     datasets: [
                         {
-                            label: '',
-                            data: [623, 706, 238],
+                            data: [54, 271, 1123, 119],
                             backgroundColor: '#EEAD2D',
                             barThickness: 'flex',
                             hoverBackgroundColor: "#b8831c",
                         },
                     ],
                 }}
-                height={300}
+                height={330}
+                width={100}
                 options={{
                     maintainAspectRatio: false,
-
                     layout: {
                         padding: 60,
                     },
 
                     legend: {
                         display: false,
+        /*                         labels: {
+                            fontSize: 15,
+                            fontColor: "#e6e7ea",
+                            fontFamily: 'Roboto',
+                        },
+        */
                     },
 
                     title: {
                         display: true,
-                        padding: 10,
-                        text: "p4",
+                        padding: 20,
+                        text: "a qualidade do ensino no RAE é:",
                         fontSize: 25,
-                        fontColor: "#d3d3d3",
-                        fontFamily: "roboto",
+                        fontColor: "#e6e7ea",
+                        fontFamily: 'Roboto',
                     },
 
-                    scales:{
-                        yAxes: [
+                    scales: {
+                        yAxes:[
                             {
+                                barPercentage: 1,
+
                                 gridLines: {
                                     color: "rgba(0, 0, 0, 0)",
                                 },
@@ -50,30 +60,27 @@ const GquatroGeral = () => {
                                 ticks: {
                                     beginAtZero: true,
                                     fontSize: 14,
-                                    fontColor: "#d3d3d3",
-                                    fontStyle: "bold",
-                                    fontFamily: "roboto"
+                                    fontColor: "#e6e7ea",
+                                    fontFamily: 'Roboto',
                                 },
+
+                                barThickness: 23,
                             },
                         ],
 
-                        xAxes: [
+                        xAxes:[
                             {
                                 display: false,
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    color: "rgba(0,0,0,0)",
                                 },
-
-                                ticks: {
-                                    display: false,
-                                },
-                            },
+                            }
                         ],
                     },
                 }}
             />
         </div>
-    )
+    );
 };
 
-export default GquatroGeral;
+export default Goito;
