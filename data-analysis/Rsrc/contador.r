@@ -43,8 +43,9 @@ Gsete <- summary(exp[,8])
 Goito <- summary(exp[,9])
 GnoveGeral <- summary(exp[,10])
 Gdez <- summary(exp[,11])
-Gonze <- 
+Gonze <- summary(exp[,12])
 Gdoze <- summary(exp[,13])
+GtrezeGeral <- summary(exp[,14])
 
 
 

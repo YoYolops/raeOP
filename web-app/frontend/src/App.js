@@ -4,7 +4,8 @@ import './App.css';
 import DefaultPage from './components/Pages/DefaultPage';
 import LandingPage from './components/Pages/LandingPage';
 import Profile from './components/Pages/Perfil';
-import RaeOpinion from './components/Pages/RaeOpinion'
+import RaeOpinion from './components/Pages/RaeOpinion';
+import TeacherOpinion from './components/Pages/TeacherOpinion';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <LandingPage />
         <Profile />
         <RaeOpinion />
+        <TeacherOpinion />
       </DefaultPage>
 
   );
