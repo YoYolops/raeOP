@@ -119,10 +119,7 @@ summary(DESIGN[,13])
 summary(QUIMICA[,13])
 
 # G13 por Curso
-for (i in summary(DIREITO[,15])){
-  print(i)
-}
-
+summary(DIREITO[,15])
 summary(ENGCIVIL[,15])
 summary(CIENCDACOMPUTAÇAO[,15])
 summary(ENGELETRICA[,15])
