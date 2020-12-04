@@ -134,8 +134,130 @@ summary(MEDICINA[,15])
 summary(DESIGN[,15])
 summary(QUIMICA[,15])
 
+############################################
+valores <- NA
+
+summary(DIREITO[,20])
+summary(ENGCIVIL[,20])
+summary(CIENCDACOMPUTAÇAO[,20])
+summary(ENGELETRICA[,20])
+summary(GEOGRAFIA[,20])
+summary(CIENCBIOLOGICAS[,20])
+summary(NUTRICAO[,20])
+summary(FARMACIA[,20])
+summary(ENFERMAGEM[,20])
+summary(MATEMATICA[,20])
+summary(HISTORIA[,20])
+summary(MEDICINA[,20])
+summary(DESIGN[,20])
+summary(QUIMICA[,20])
 
 
+geraLista <- function (z){
+  valores <- NA
+  j <- ''
+  for (i in summary(DIREITO[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(ENGCIVIL[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(CIENCDACOMPUTAÇAO[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(ENGELETRICA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(GEOGRAFIA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(CIENCBIOLOGICAS[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(NUTRICAO[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(FARMACIA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(ENFERMAGEM[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(MATEMATICA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(HISTORIA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(MEDICINA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(DESIGN[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  j <- ''
+  for (i in summary(QUIMICA[,z])){
+    j <- c(str_c(j, ',',i))
+  }
+  valores <- c(valores, j)
+  
+  for (i in valores){
+    print(i)
+  }
+}
+
+[28,9,17,18,40,26],
+[36,51,5,3,27,6],
+[49,43,10,1,8,3],
+[35,41,9,1,19,7],
+[43,18,6,2,29,1],
+[41,13,4,2,25,7],
+[28,8,3,6,34,11],
+[23,12,4,8,29,6],
+[29,15,6,3,17,3],
+[31,17,7,15,1],
+[30,27,4,5],
+[11,3,1,22,14,12],
+[25,16,3,1,5,3],
+[21,7,2,2,11,3]
 
 
 
