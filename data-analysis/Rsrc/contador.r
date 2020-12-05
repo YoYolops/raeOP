@@ -137,20 +137,20 @@ summary(QUIMICA[,15])
 ############################################
 valores <- NA
 
-summary(DIREITO[,20])
-summary(ENGCIVIL[,20])
-summary(CIENCDACOMPUTAÇAO[,20])
-summary(ENGELETRICA[,20])
-summary(GEOGRAFIA[,20])
-summary(CIENCBIOLOGICAS[,20])
-summary(NUTRICAO[,20])
-summary(FARMACIA[,20])
-summary(ENFERMAGEM[,20])
-summary(MATEMATICA[,20])
-summary(HISTORIA[,20])
-summary(MEDICINA[,20])
-summary(DESIGN[,20])
-summary(QUIMICA[,20])
+summary(DIREITO[,21])
+summary(ENGCIVIL[,21])
+summary(CIENCDACOMPUTAÇAO[,21])
+summary(ENGELETRICA[,21])
+summary(GEOGRAFIA[,21])
+summary(CIENCBIOLOGICAS[,21])
+summary(NUTRICAO[,21])
+summary(FARMACIA[,21])
+summary(ENFERMAGEM[,21])
+summary(MATEMATICA[,21])
+summary(HISTORIA[,21])
+summary(MEDICINA[,21])
+summary(DESIGN[,21])
+summary(QUIMICA[,21])
 
 
 geraLista <- function (z){
@@ -244,24 +244,49 @@ geraLista <- function (z){
   }
 }
 
-[28,9,17,18,40,26],
-[36,51,5,3,27,6],
-[49,43,10,1,8,3],
-[35,41,9,1,19,7],
-[43,18,6,2,29,1],
-[41,13,4,2,25,7],
-[28,8,3,6,34,11],
-[23,12,4,8,29,6],
-[29,15,6,3,17,3],
-[31,17,7,15,1],
-[30,27,4,5],
-[11,3,1,22,14,12],
-[25,16,3,1,5,3],
-[21,7,2,2,11,3]
+campi <- c('Campina Grande', 'Cuité', 'Patos', 'Cajazeiras', 'Pombal', 'Sousa', 'Sumé')
+
+`Campina Grande` <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Campina Grande.csv')
+Cuité <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Cuité.csv')
+Patos <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Patos.csv')
+Cajazeiras <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Cajazeiras.csv')
+Pombal <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Pombal.csv')
+Sousa <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Sousa.csv')
+Sumé <- read.csv('~/Documentos/raeOP/data-analysis/Rsrc/pCampus/Sumé.csv')
+
+geraCampi <- function(campus ,coluna){
+  valores <- NULL
+  
+  condensado <- NULL
+  ciclo <- 1
+    
+  for (i in summary(campus[,coluna])){
+    if (ciclo != 1){
+      condensado <- c(str_c(condensado, ',', i))
+    }else{
+      condensado <- c(str_c(condensado, i))
+    }
+    
+    ciclo <- ciclo + 1
+  }
+  print(condensado)
+}
+
+cram <- function(z){
+  geraCampi(`Campina Grande`,z)
+  geraCampi(Cajazeiras,z)
+  geraCampi(Cuité,z)
+  geraCampi(Patos,z)
+  geraCampi(Pombal,z)
+  geraCampi(Sousa,z)
+}
 
 
-
-
-
+[204,162,37,32,98,42],
+[92,55,12,9,59,11],
+[148,61,22,19,103,24],
+[19,5,2,4,22,9],
+[49,59,3,7,40,3],
+[33,12,17,17,43,27]
 
 
