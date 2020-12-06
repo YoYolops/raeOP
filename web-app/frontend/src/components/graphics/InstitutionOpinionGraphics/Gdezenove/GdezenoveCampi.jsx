@@ -14,7 +14,7 @@ const GdezenoveCampi = () => {
                             label: "Campina Grande",
                             hidden: false,
                             data: [162, 204, 98, 42, 32, 37],
-                            backgroundColor: '#753bff',
+                            backgroundColor:  '#EEAD2D',
                             barThickness: 'flex',
                         },
                         
@@ -30,7 +30,7 @@ const GdezenoveCampi = () => {
                             label: "Cuité",
                             hidden: true,
                             data: [61, 148, 103, 24, 19, 22],
-                            backgroundColor: '#F0BB00',
+                            backgroundColor: '#753bff',
                             barThickness: 'flex',
                         },
                         

@@ -14,7 +14,7 @@ const GtrezeCampi = () => {
                             label: "Campina Grande",
                             hidden: false,
                             data: [51, 202, 230, 56, 26, 10],
-                            backgroundColor: '#753bff',
+                            backgroundColor: '#eead2d',
                             barThickness: 'flex',
                         },
                         
@@ -30,7 +30,7 @@ const GtrezeCampi = () => {
                             label: "Cuité",
                             hidden: true,
                             data: [40, 160, 129, 36, 9, 3],
-                            backgroundColor: '#F0BB00',
+                            backgroundColor: '#753bff',
                             barThickness: 'flex',
                         },
                         

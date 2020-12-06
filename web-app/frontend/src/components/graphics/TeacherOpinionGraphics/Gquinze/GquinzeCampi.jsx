@@ -14,7 +14,7 @@ const GquinzeCampi = () => {
                             label: "Campina Grande",
                             hidden: false,
                             data: [221, 197, 100, 57],
-                            backgroundColor: '#753bff',
+                            backgroundColor: '#eead2d',
                             barThickness: 'flex',
                         },
                         
@@ -30,7 +30,7 @@ const GquinzeCampi = () => {
                             label: "Cuité",
                             hidden: true,
                             data: [164, 106, 60, 47],
-                            backgroundColor: '#F0BB00',
+                            backgroundColor: '#753bff',
                             barThickness: 'flex',
                         },
                         
@@ -59,7 +59,7 @@ const GquinzeCampi = () => {
                         },                                                                                                                                                
                     ],
                 }}
-                height={700}
+                height={550}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

@@ -14,7 +14,7 @@ const GonzeCampi = () => {
                             label: "Campina Grande",
                             hidden: false,
                             data: [335, 173, 67],
-                            backgroundColor: '#753bff',
+                            backgroundColor: '#EEAD2D',
                             barThickness: 'flex',
                         },
                         
@@ -30,7 +30,7 @@ const GonzeCampi = () => {
                             label: "Cuité",
                             hidden: true,
                             data: [227, 113, 37],
-                            backgroundColor: '#F0BB00',
+                            backgroundColor: '#753bff',
                             barThickness: 'flex',
                         },
                         
@@ -59,7 +59,7 @@ const GonzeCampi = () => {
                         },                                                                                                  
                     ],
                 }}
-                height={700}
+                height={480}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
