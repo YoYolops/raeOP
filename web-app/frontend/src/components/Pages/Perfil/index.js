@@ -7,12 +7,13 @@ import './Profile.css';
 const Profile = () => {
     return(
         <div>
+            <hr size="2"/>
             <div className="presentation" id="profilePresentation">
-                <h1 id="title">
+                <h1 className="blockTitle">
                     <strong>Perfil dos Respondentes</strong>
                 </h1>
                 <div className="text">
-                    <p>
+                    <p className="p1">
                         Ao todo, 1567 estudantes, o que corresponde a pouco menos de 10% do total de alunos de
                         graduação da UFCG, responderam à pesquisa de opinião ao longo de duas semanas,
                         dos quais a maior parte são dos campi de Campina Grande, Cuité e Cajazeiras, que juntos
@@ -25,7 +26,7 @@ const Profile = () => {
                         menor entre os estudantes mais veteranos.
                     </p>
                 </div>
-                <hr />
+                <hr size="2"/>
             </div>
 
             <Gum />

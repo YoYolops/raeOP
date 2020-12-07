@@ -40,7 +40,7 @@ const Gdez= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "dificuldades técnicas",
                         fontSize: 25,

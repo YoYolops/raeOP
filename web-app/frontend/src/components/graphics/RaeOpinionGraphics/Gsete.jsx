@@ -40,7 +40,7 @@ const Gsete = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "o seu desempenho no RAE:",
                         fontSize: 25,

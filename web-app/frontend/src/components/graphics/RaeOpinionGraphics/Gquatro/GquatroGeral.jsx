@@ -19,7 +19,7 @@ const GquatroGeral = () => {
                         },
                     ],
                 }}
-                height={290}
+                height={230}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -38,7 +38,7 @@ const GquatroGeral = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Vagas RAE suficientes?",
                         fontSize: 25,

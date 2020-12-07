@@ -40,7 +40,7 @@ const Gcinco = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "você conseguiu se matricular em:",
                         fontSize: 25,

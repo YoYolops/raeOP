@@ -40,7 +40,7 @@ const Gdoze= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Afetam seu desempenho?",
                         fontSize: 25,

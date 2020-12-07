@@ -40,7 +40,7 @@ const Gseis = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "No geral, você acha o RAE:",
                         fontSize: 25,

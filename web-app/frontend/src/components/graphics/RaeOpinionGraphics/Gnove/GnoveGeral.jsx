@@ -40,7 +40,7 @@ const GnoveGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "afetou sua saúde mental para:",
                         fontSize: 25,

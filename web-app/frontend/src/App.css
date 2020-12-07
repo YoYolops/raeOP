@@ -8,6 +8,13 @@
   --text-color: #e6e7ea;
 }
 
+hr {
+  background-color: #40454a;
+  width: 90%;
+  margin: auto;
+  border: 0;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

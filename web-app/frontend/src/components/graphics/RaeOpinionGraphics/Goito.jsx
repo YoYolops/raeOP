@@ -40,7 +40,7 @@ const Goito= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "a qualidade do ensino no RAE é:",
                         fontSize: 25,
