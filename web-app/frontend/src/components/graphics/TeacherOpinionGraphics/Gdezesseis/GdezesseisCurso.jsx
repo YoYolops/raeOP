@@ -158,7 +158,7 @@ const GdezesseisCurso = () => {
                                 barPercentage: .9,
 
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 ticks: {
@@ -176,7 +176,7 @@ const GdezesseisCurso = () => {
                             {
                                 display: false,
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             }
                         ],

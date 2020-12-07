@@ -94,7 +94,7 @@ const GtrezeCampi = () => {
                                 barPercentage: .9,
 
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 ticks: {
@@ -112,7 +112,7 @@ const GtrezeCampi = () => {
                             {
                                 display: false,
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             }
                         ],

@@ -54,7 +54,7 @@ const GnoveGeral= () => {
                                 barPercentage: 1,
 
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 ticks: {
@@ -72,7 +72,7 @@ const GnoveGeral= () => {
                             {
                                 display: false,
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             }
                         ],

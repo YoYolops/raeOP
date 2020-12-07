@@ -19,7 +19,7 @@ const Gtres = () => {
                         },
                     ],
                 }}
-                height={450}
+                height={360}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -39,7 +39,7 @@ const Gtres = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 30,
                         text: "Nº de Respondentes/Campi",
                         fontSize: 25,
@@ -52,7 +52,7 @@ const Gtres = () => {
                             {
                                 display: true,
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 barThickness: 23,
@@ -77,7 +77,7 @@ const Gtres = () => {
                                 },
 
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             },
                         ],

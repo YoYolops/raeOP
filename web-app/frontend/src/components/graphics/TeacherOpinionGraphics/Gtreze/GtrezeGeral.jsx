@@ -54,7 +54,7 @@ const GtrezeGeral= () => {
                                 barPercentage: 1,
 
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 ticks: {
@@ -72,7 +72,7 @@ const GtrezeGeral= () => {
                             {
                                 display: false,
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             }
                         ],

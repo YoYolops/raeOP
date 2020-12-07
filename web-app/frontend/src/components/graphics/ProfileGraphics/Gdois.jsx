@@ -23,7 +23,7 @@ const Gdois = () => {
                     ],
                 }}
 
-                height={500}
+                height={460}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -42,7 +42,7 @@ const Gdois = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 10,
                         text: "Nº de Respondentes/Período",
                         fontSize: 25,
@@ -55,7 +55,7 @@ const Gdois = () => {
                             {
                                 display: true,
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 barThickness: 23,
@@ -80,7 +80,7 @@ const Gdois = () => {
                                 },
 
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             },
                         ],

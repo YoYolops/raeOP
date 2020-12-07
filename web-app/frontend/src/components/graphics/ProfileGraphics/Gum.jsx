@@ -58,7 +58,7 @@ const Gum = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Nº de Respondentes",
                         fontSize: 25,
@@ -72,7 +72,7 @@ const Gum = () => {
                                 barPercentage: 1,
 
                                 gridLines: {
-                                    color: "rgba(0, 0, 0, 0)",
+                                    display: false,
                                 },
 
                                 ticks: {
@@ -90,7 +90,7 @@ const Gum = () => {
                             {
                                 display: false,
                                 gridLines: {
-                                    color: "rgba(0,0,0,0)",
+                                    display: false,
                                 },
                             }
                         ],
