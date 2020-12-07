@@ -45,43 +45,51 @@ const RaeOpinion = () => {
             </h1>
             <GquatroGeral />
             {/* <GquatroCurso /> */}
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 Com relação às disciplinas que queria cursar, você conseguiu se matricular em:
             </h1>
             <Gcinco />
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 No geral, você acha o RAE:
             </h1>
             <Gseis />
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 Você acredita que o seu desempenho no RAE, em comparação com o presencial:
             </h1>
             <Gsete />
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 Na sua opinião, a qualidade do ensino no RAE, em comparação com o presencial, é:
             </h1>
             <Goito />
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 Você acredita que o RAE afetou sua saúde mental para:
             </h1>
             <GnoveGeral />
             {/* <GnoveCurso /> */}
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 No que diz respeito a dificuldades técnicas (queda de internet ou energia,
                 indisponibilidade de equipamento etc), você passa por elas:
             </h1>
             <Gdez />
+            <hr size="2"/>
 
             <h1 className="gTitle">
                 No geral, você acha que essas dificuldades prejudicam o seu desempenho?
             </h1>
             <Gdoze />
+            <hr size="2"/>
         </div>
     );
 };

@@ -21,7 +21,7 @@ const GdezesseisGeral= () => {
                         },
                     ],
                 }}
-                height={400}
+                height={420}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

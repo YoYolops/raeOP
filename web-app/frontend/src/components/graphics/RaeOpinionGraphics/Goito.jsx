@@ -21,7 +21,7 @@ const Goito= () => {
                         },
                     ],
                 }}
-                height={330}
+                height={280}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

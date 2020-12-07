@@ -21,7 +21,7 @@ const Gcinco = () => {
                         },
                     ],
                 }}
-                height={325}
+                height={270}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

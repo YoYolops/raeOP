@@ -21,7 +21,7 @@ const GcatorzeGeral= () => {
                         },
                     ],
                 }}
-                height={390}
+                height={410}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

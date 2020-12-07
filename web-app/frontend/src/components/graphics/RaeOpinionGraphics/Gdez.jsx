@@ -21,7 +21,7 @@ const Gdez= () => {
                         },
                     ],
                 }}
-                height={325}
+                height={280}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

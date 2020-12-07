@@ -21,7 +21,7 @@ const GquinzeGeral= () => {
                         },
                     ],
                 }}
-                height={325}
+                height={340}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

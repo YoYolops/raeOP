@@ -21,7 +21,7 @@ const Gseis = () => {
                         },
                     ],
                 }}
-                height={400}
+                height={350}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

@@ -21,7 +21,7 @@ const Gsete = () => {
                         },
                     ],
                 }}
-                height={330}
+                height={275}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

@@ -21,7 +21,7 @@ const GonzeGeral= () => {
                         },
                     ],
                 }}
-                height={290}
+                height={310}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
