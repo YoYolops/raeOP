@@ -21,7 +21,7 @@ const GtrezeGeral= () => {
                         },
                     ],
                 }}
-                height={410}
+                height={370}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GtrezeGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Atuação dos professores é:",
                         fontSize: 25,

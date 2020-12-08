@@ -21,7 +21,7 @@ const GquinzeGeral= () => {
                         },
                     ],
                 }}
-                height={340}
+                height={280}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GquinzeGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Os professores estão:",
                         fontSize: 25,

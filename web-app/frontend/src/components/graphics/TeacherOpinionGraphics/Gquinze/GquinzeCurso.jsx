@@ -144,7 +144,7 @@ const GquinzeCurso = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "por Curso",
                         fontSize: 25,

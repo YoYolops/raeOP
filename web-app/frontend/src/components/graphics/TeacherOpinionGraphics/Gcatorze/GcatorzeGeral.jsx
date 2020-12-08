@@ -21,7 +21,7 @@ const GcatorzeGeral= () => {
                         },
                     ],
                 }}
-                height={410}
+                height={370}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GcatorzeGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Atendimento Individual é:",
                         fontSize: 25,

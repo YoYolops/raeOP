@@ -39,7 +39,7 @@ const Gum = () => {
 
             
                 }}
-                height = {1550}
+                height = {1800}
                 width = {100}
                 options = {{
                     maintainAspectRatio: false,

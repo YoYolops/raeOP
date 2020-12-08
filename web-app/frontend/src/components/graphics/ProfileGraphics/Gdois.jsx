@@ -23,7 +23,7 @@ const Gdois = () => {
                     ],
                 }}
 
-                height={460}
+                height={485}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

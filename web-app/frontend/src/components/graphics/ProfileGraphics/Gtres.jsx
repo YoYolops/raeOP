@@ -19,7 +19,7 @@ const Gtres = () => {
                         },
                     ],
                 }}
-                height={360}
+                height={380}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

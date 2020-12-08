@@ -21,7 +21,7 @@ const Gdezesete = () => {
                         },
                     ],
                 }}
-                height={300}
+                height={250}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const Gdezesete = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "O volume de atividades é abusivo? ",
                         fontSize: 25,

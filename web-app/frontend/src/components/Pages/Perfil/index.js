@@ -29,6 +29,9 @@ const Profile = () => {
                 <hr size="2"/>
             </div>
 
+            <h1 className="gTitle">
+                Quantidade de Respondentes
+            </h1>
             <Gum />
             <Gdois />
             <Gtres />

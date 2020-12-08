@@ -21,7 +21,7 @@ const GonzeGeral= () => {
                         },
                     ],
                 }}
-                height={310}
+                height={240}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GonzeGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "Professores são tolerantes?",
                         fontSize: 25,

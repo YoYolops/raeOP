@@ -21,7 +21,7 @@ const GdezesseisGeral= () => {
                         },
                     ],
                 }}
-                height={420}
+                height={370}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GdezesseisGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "O volume de atividades está:",
                         fontSize: 25,
