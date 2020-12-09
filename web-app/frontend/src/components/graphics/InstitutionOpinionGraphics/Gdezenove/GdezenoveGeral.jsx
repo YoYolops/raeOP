@@ -21,7 +21,7 @@ const GdezenoveGeral = () => {
                         },
                     ],
                 }}
-                height={390}
+                height={370}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GdezenoveGeral = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "avaliação das coordenações:",
                         fontSize: 25,

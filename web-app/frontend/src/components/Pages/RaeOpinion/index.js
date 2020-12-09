@@ -89,7 +89,6 @@ const RaeOpinion = () => {
                 No geral, você acha que essas dificuldades prejudicam o seu desempenho?
             </h1>
             <Gdoze />
-            <hr size="2"/>
         </div>
     );
 };

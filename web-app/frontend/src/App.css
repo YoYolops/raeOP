@@ -8,6 +8,10 @@
   --text-color: #e6e7ea;
 }
 
+strong{
+  color: #EEAD2D;
+}
+
 hr {
   background-color: #40454a;
   width: 90%;

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Teacher.css'
 
 import GonzeGeral from '../../graphics/TeacherOpinionGraphics/Gonze/GonzeGeral';
 /* import GonzeCurso from '../../graphics/TeacherOpinionGraphics/Gonze/GonzeCurso'; */
@@ -97,7 +96,6 @@ const TeacherOpinion = () => {
                 Você julga esse volume de atividades abusivo?
             </h1>
             <Gdezesete />
-            <hr size="2"/>
         </div>
     );
 };

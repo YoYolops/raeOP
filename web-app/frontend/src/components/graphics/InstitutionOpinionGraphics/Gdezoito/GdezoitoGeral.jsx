@@ -21,7 +21,7 @@ const GdezoitoGeral= () => {
                         },
                     ],
                 }}
-                height={390}
+                height={370}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
@@ -40,7 +40,7 @@ const GdezoitoGeral= () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "avaliação da UFCG:",
                         fontSize: 25,

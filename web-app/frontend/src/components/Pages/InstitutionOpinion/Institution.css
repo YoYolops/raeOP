@@ -1,0 +1,10 @@
+.presentation .text #bloquinho {
+    margin-top: 20px;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 20px;
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    line-height: 23px;
+}

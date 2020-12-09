@@ -80,7 +80,7 @@ const GdezoitoCampi = () => {
                     },
 
                     title: {
-                        display: true,
+                        display: false,
                         padding: 20,
                         text: "por Campi",
                         fontSize: 25,
