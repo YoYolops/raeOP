@@ -13,7 +13,7 @@ import GdezenoveGeral from '../../graphics/InstitutionOpinionGraphics/Gdezenove/
 const InstitutionOpinion = () => {
     return (
         <div>
-            <hr size="2" />
+            <hr size="2" id="about_institution"/>
             <div className="presentation" id="teacherPresentation">
                 <h1 className="blockTitle">
                     <strong>Sobre a Instituição</strong>
@@ -42,7 +42,7 @@ const InstitutionOpinion = () => {
                             <p>
                                 <strong>1.</strong> História (<strong>4,09</strong>)<br />
                                 <strong>2.</strong> Computação (<strong>3,87</strong>)<br />
-                                <strong>3.</strong> Eng. Civil(<strong>3,86</strong>)<br />
+                                <strong>3.</strong> Eng. Civil (<strong>3,86</strong>)<br />
                                 <strong>4.</strong> Design (<strong>3,81</strong>)<br />
                                 <strong>5.</strong> Eng. Elétrica (<strong>3,72</strong>)<br />
                                 <strong>6.</strong> Matemática (<strong>3,60</strong>)<br />

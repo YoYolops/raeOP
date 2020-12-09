@@ -7,7 +7,7 @@ import './Profile.css';
 const Profile = () => {
     return(
         <div>
-            <hr size="2"/>
+            <hr size="2" id="student_profile"/>
             <div className="presentation" id="profilePresentation">
                 <h1 className="blockTitle">
                     <strong>Perfil dos Respondentes</strong>

@@ -16,7 +16,7 @@ import Gdoze from '../../graphics/RaeOpinionGraphics/Gdoze'
 const RaeOpinion = () => {
     return (
         <div>
-            <hr size="2"/>
+            <hr size="2" id="about_rae"/>
             <div className="presentation" id="raePresentation">
                 <h1 className="blockTitle">
                     <strong>Sobre o RAE</strong>

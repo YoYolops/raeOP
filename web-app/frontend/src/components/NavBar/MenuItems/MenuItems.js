@@ -6,22 +6,22 @@ export const MenuItems = [
     },
     {
         title: 'Perfil do Respondente',
-        url: '#estudent_profile',
+        url: '#student_profile',
         cName: 'nav-link',
     },
     {
-        title: 'Technology',
-        url: '#technology',
+        title: 'Sobre RAE',
+        url: '#about_rae',
         cName: 'nav-link'
     },
     {
-        title: 'Work',
-        url: '#work',
+        title: 'Sobre Professores',
+        url: '#about_teacher',
         cName: 'nav-link'
     },
     {
-        title: 'Community',
-        url: '#community',
+        title: 'Sobre Instituição',
+        url: '#about_institution',
         cName: 'nav-link'
     },
 ]

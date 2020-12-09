@@ -25,7 +25,7 @@ import Gdezesete from '../../graphics/TeacherOpinionGraphics/Gdezesete';
 const TeacherOpinion = () => {
     return (
         <div>
-            <hr size="2" />
+            <hr size="2" id="about_teacher"/>
             <div className="presentation" id="teacherPresentation">
                 <h1 className="blockTitle">
                     <strong>Sobre os Professores</strong>
