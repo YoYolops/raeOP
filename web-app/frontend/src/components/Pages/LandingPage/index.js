@@ -12,10 +12,11 @@ const LandingPage = () => {
           <div class='title-page'>
             <h1><i class="fas fa-database"/> Datablo</h1>
             <p>
-            Lorem ipsum dolor sit amet colu, consectetur adipiscing delit karm. Praesent nec erat ac tortor camul faucibus dignissim eufor efficitur. 
+              Resultados da consulta de opinião pública da comunidade acadêmica de graduação da UFCG
+              a respeito do Regime Acadêmico Extraordinário - RAE
             </p>
             <div class='title-btn'>
-              <Button variant='primary' >Documentação</Button>
+              <Button variant='primary' >GitHub</Button>
               <Button variant='primary' >Metodologia</Button>
             </div>
           </div>
