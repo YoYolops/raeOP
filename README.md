@@ -1,18 +1,21 @@
-# Pesquisa de Opinião Pública da Comunidade Acadêmica - UFCG
-## Info:
-O projeto está subdividido nas seguintes partes:
-1. Formulação de perguntas pertinenetes para que os estudantes possam avaliar o RAE.
-2. Coleta, limpeza e visualização dos dados gerados.
-3. Desenvolvimento de uma aplicação web simples para divulgação dos resultados.
+![Badge](https://img.shields.io/static/v1?label=yarn&message=v1.22.5&color=13a3bf&style=for-the-badge&logo=yarn) ![Badge](https://img.shields.io/static/v1?label=Chart.js&message=v2.9.4&color=FF6384&style=for-the-badge&logo=chart.js) ![Badge](https://img.shields.io/static/v1?label=react&message=v17.0.1&color=00f7ff&style=for-the-badge&logo=react)
 
-## Parte 1:
-Para a coleta das respostas dos estudantes será utilizado a plataforma do *Google Forms*.
 
-## Parte 2:
-Depois de coletados, os dados serão compilados e estruturados para facilitar o trabalho de visualização dos mesmos. Utilizaremos as seguintes ferramentas:
-* Linguagem R;
-* Tidy Universe
-* ggplot2
+# Esta Pesquisa Foi Realizada Por:
+**Yohan Lopes** | **yohan.rodrigues@ccc.ufcg.edu.br**
+--- | --- 
+**Mateus Matias** | **mateus.matias@ccc.ufcg.edu.br**
 
-## Parte 3:
-A aplicação web será desenvolvida com auxílio do *React*, para facilitar a escalabilidade e integração com pesquisas futuras
+# Onde encontrar o Datablo:
+1. [Twitter](https://twitter.com/datablo)
+2. [Instagram](https://www.instagram.com/datablo/)
+
+# Membros do Datablo:
+**Yohan Lopes** | **yohan.rodrigues@ccc.ufcg.edu.br** | **[linkedin](https://www.linkedin.com/in/yoyolops/)**
+--- | --- | ---
+**Leonardo Veiga** | **leonardo.porfirio@ccc.ufcg.edu.br** | **[linkedin](https://www.linkedin.com/in/leonardo-veiga42/)**
+**Mateus Matias** | **mateus.matias@ccc.ufcg.edu.br** | **[linkedin](https://www.linkedin.com/in/ummatias/)**
+
+# O que é o Datablo?
+Como a instituição grande que é, a universidade (UFCG) gera toneladas e toneladas de dados anualmente, grande parte deles perfeitamente acessíveis ao público, em acordo com as políticas federais de transparência. Entretanto, apesar de disponíveis, essas informações não chegam naturalmente à comunidade acadêmica. É nesse contexto que surge o Datablo, um projeto com o objetivo de servir de ponte para que a informação não só chegue à comunidade, mas que seja inteligível, e sirva como ferramenta de auxílio aos alunos.
+
