@@ -1,15 +1,11 @@
 .btn {
     margin-top: 1rem;
     padding: 0.5em 1em;
-    width: 50%;
+    width: 100%;
     font-size: 14px;
     font-weight: bold;
     border-radius: 4px;
     border: 0;
-}
-
-.btn:first-child{
-    margin-right: 10%;
 }
 
 .outline{

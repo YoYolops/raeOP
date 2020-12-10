@@ -1,3 +1,28 @@
 .graph1{
     width: 100vw;
 }
+
+.menu-graph{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.menu-graph a, button{
+    margin: 0 2%;
+    width: 100%;
+}
+
+@media screen and (max-width: 650px){
+    .menu-graph{
+        width: 100%;
+        flex-direction: column;
+        padding: 0 10%;
+    }
+
+    .menu-graph a, button{
+        margin: 0.5% 0;
+    }
+
+}

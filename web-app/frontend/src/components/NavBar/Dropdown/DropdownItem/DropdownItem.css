@@ -1,0 +1,13 @@
+.drop-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 5%;
+}
+
+.drop-link:hover{
+    color: var(--orange);
+    border-radius: 4px;
+    transition: all 0.2 ease-out
+}

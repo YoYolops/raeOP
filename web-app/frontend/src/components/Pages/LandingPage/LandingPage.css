@@ -54,6 +54,9 @@ font-face {
     justify-content: space-between;
 }
 
+.title-btn Button:first-child{
+    margin-right: 10%;
+}
 
 @media screen and (max-width: 650px){
 

@@ -1,8 +1,10 @@
 import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
 import Gum from '../../graphics/ProfileGraphics/Gum';
 import Gdois from '../../graphics/ProfileGraphics/Gdois';
 import Gtres from '../../graphics/ProfileGraphics/Gtres';
 import './Profile.css';
+import Button from '../../Button';
 
 const Profile = () => {
     return(
@@ -32,9 +34,24 @@ const Profile = () => {
             <h1 className="gTitle">
                 Quantidade de Respondentes
             </h1>
-            <Gum />
-            <Gdois />
-            <Gtres />
+            <div className='menu-graph'>
+                <Link to='/'>
+                    <Button>Por Curso</Button>
+                </Link>
+
+                <Link to='/student_profile/period'>
+                    <Button>Por Período</Button>
+                </Link>
+
+                <Link to='/student_profile/campus'>
+                    <Button>Por Campus</Button>
+                </Link>
+            </div>
+            <Switch> 
+                <Route path='/student_profile/period' component={ Gdois }/>
+                <Route path='/student_profile/campus' component={ Gtres }/>
+                <Route path='/' component={ Gum }/>
+            </Switch>
         </div>
     )
 }
