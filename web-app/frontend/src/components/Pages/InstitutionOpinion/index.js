@@ -35,10 +35,12 @@ const InstitutionOpinion = () => {
                     <p>
                         Por outro lado, ao observar os dados que dizem respeito à atuação da coordenações durante o
                         RAE, vemos um cenário completamente diferente. Aqui, 61% das respostas válidas consideram
+
                         a atuação das coordenações como 'Boa' ou 'Excelente', enquanto apenas 14% a classificaram
                         como 'Ruim' ou 'Péssima'.
                         Atribuindo uma pontuação de 1 a 5 àqueles que responderam 'Péssimo', 'Ruim', 'Razoável', 'bom' e
                         'Excelente', respectivamente, podemos abstrair os resultados da pesquisa em uma nota e analisar
+
                         o nível de aprovação das coordenações entre os estudantes de alguns cursos. Assim, obtemos a
                         seguinte relação: <br />
                         <div id='bloquinho'>
