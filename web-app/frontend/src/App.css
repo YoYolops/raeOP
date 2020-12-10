@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 :root{
   --orange: #EEAD2D;
   --bg-navbar: #1c1f23;
   --bg-default: #2f3337;
   --text-color: #e6e7ea;
+}
+
+.outLink {
+  text-decoration: none;
 }
 
 strong{
@@ -17,13 +28,6 @@ hr {
   width: 90%;
   margin: auto;
   border: 0;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 body{

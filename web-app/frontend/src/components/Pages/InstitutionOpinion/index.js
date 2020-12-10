@@ -34,7 +34,7 @@ const InstitutionOpinion = () => {
                         RAE, vemos um cenário completamente diferente. Aqui, 61% das respostas válidas consideram
                         a atuação das coordenações como "Boa" ou "Excelente", enquanto apenas 14% a classificaram
                         como "Ruim" ou "Péssima".
-                        Atribuindo uma pontuação de 1 a 5 àqueles que responderam "Péssimo", "Ruim", "Razoável", "bom" e
+                        Atribuindo uma pontuação de 1 a 5 àqueles que responderam "Péssimo", "Ruim", "Razoável", "Bom" e
                         "Excelente", respectivamente, podemos abstrair os resultados da pesquisa em uma nota e analisar
                         o nível de aprovação das coordenações entre os estudantes de alguns cursos. Assim, obtemos a
                         seguinte relação: <br />

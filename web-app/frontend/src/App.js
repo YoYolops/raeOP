@@ -7,7 +7,8 @@ import Overview from './components/Overview'
 import Profile from './components/Pages/Perfil';
 import RaeOpinion from './components/Pages/RaeOpinion';
 import TeacherOpinion from './components/Pages/TeacherOpinion';
-import InstitutionOpinion from './components/Pages/InstitutionOpinion'
+import InstitutionOpinion from './components/Pages/InstitutionOpinion';
+import Metodologia from './components/Metodologia';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <RaeOpinion />
         <TeacherOpinion />
         <InstitutionOpinion />
+        <Metodologia />
       </DefaultPage>
 
   );
