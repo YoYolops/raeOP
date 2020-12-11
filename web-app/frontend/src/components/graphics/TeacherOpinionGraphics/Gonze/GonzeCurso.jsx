@@ -123,7 +123,7 @@ const GonzeCurso = () => {
                         },
                     ],
                 }}
-                height={600}
+                height={500}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

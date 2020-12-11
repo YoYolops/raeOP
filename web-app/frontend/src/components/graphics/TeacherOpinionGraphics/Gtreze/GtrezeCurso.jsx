@@ -123,7 +123,7 @@ const GtrezeCurso = () => {
                         },
                     ],
                 }}
-                height={900}
+                height={750}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

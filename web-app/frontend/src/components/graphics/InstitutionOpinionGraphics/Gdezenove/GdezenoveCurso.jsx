@@ -123,7 +123,7 @@ const GdezenoveCurso = () => {
                         },                                                                                                  
                     ],
                 }}
-                height={900}
+                height={800}
                 width={100}
                 options={{
                     maintainAspectRatio: false,

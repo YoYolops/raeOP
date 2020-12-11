@@ -31,7 +31,7 @@ const Profile = () => {
                 <hr size="2"/>
             </div>
 
-            <h1 className="gTitle">
+            <h1 className="gTitle" id='quant_students'>
                 Quantidade de Respondentes
             </h1>
             <div className='menu-graph'>

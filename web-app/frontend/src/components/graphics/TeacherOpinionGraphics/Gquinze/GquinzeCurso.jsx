@@ -123,7 +123,7 @@ const GquinzeCurso = () => {
                         },                        
                     ],
                 }}
-                height={700}
+                height={600}
                 width={100}
                 options={{
                     maintainAspectRatio: false,
