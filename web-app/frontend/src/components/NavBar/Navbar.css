@@ -11,6 +11,10 @@
     overflow-y: auto;
 }
 
+.NavbarItems::-webkit-scrollbar{
+    width: 0px;
+}
+
 .nav-menu {
     width: 75%;
     margin-top: 10%;

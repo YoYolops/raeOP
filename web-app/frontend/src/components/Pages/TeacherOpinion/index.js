@@ -82,7 +82,7 @@ const TeacherOpinion = () => {
             </h1>
             <div className='menu-graph'>
                 <Link to='/'>
-                    <Button>Por Geral</Button>
+                    <Button>Geral</Button>
                 </Link>
 
                 <Link to='/about_teacher/g2/course'>
@@ -105,7 +105,7 @@ const TeacherOpinion = () => {
             </h1>
             <div className='menu-graph'>
                 <Link to='/'>
-                    <Button>Por Geral</Button>
+                    <Button>Geral</Button>
                 </Link>
 
                 <Link to='/about_teacher/g3/course'>
@@ -128,7 +128,7 @@ const TeacherOpinion = () => {
             </h1>
             <div className='menu-graph'>
                 <Link to='/'>
-                    <Button>Por Geral</Button>
+                    <Button>Geral</Button>
                 </Link>
 
                 <Link to='/about_teacher/g4/course'>
@@ -151,7 +151,7 @@ const TeacherOpinion = () => {
             </h1>
             <div className='menu-graph'>
                 <Link to='/'>
-                    <Button>Por Geral</Button>
+                    <Button>Geral</Button>
                 </Link>
 
                 <Link to='/about_teacher/g5/course'>
