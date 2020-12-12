@@ -47,14 +47,21 @@ font-face {
     color: var(--text-color);
 }
 
-.title-btn{
+
+.title-btn {
+    position: relative;
+    z-index: 1; 
     max-width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.title-btn Button:first-child{
+.btn-link{
+    width: 47%;
+}
+
+.title-btn .btn-link:first-child{
     margin-right: 10%;
 }
 
@@ -77,6 +84,10 @@ font-face {
         max-width: 100%;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .btn-link{
+        width: 100%;
     }
 
     .title-btn:last-child{

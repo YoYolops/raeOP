@@ -16,8 +16,12 @@ const LandingPage = () => {
               a respeito do Regime Acadêmico Extraordinário - RAE
             </p>
             <div class='title-btn'>
-              <Button variant='primary' >GitHub</Button>
-              <Button variant='primary' >Metodologia</Button>
+              <a className='btn-link' href='https://github.com/YoYolops/raeOP' rel="noreferrer" target="_blank">
+                <Button variant='primary' >GitHub</Button>
+              </a>
+              <a className='btn-link' href='#metodologia'>
+                <Button variant='primary' >Metodologia</Button>
+              </a>
             </div>
           </div>
         </div>

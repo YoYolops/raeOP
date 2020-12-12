@@ -27,6 +27,7 @@
 .primary:hover{
     background: rgba(238, 173, 45, .4);
     color: #e6e7ea;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 650px){

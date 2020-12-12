@@ -1,6 +1,5 @@
 import React from 'react'
 import './DropdownItem.css';
-import { NavLink } from 'react-router-dom';
 
 const DropdownItem = (props) => {
     return (

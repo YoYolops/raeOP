@@ -29,6 +29,7 @@
     border-top: 2px solid #2d3134;
     padding: 8px 0;
 }
+
 .listItem:first-child{
     border-top: none
 }
@@ -65,7 +66,6 @@
     .NavbarItems {
         position: absolute;
         background: transparent;
-        
     }
 
     .menu-icon{
@@ -82,7 +82,7 @@
         margin: 5% 5%;
         box-shadow: 2px 2px 2px #999;
         position: fixed !important;
-        z-index: 2;
+        z-index: 5;
     }
 
     .nav-menu {
@@ -102,6 +102,7 @@
         opacity: 1;
         z-index: 1;
         left: 0;
+        z-index: 10;
     }
 }
 @media screen and (max-width: 650px){
@@ -130,6 +131,7 @@
         z-index: 1;
         left: 0;
         position: fixed;
+        overflow-y: auto;
     }
 
     .listItem{
@@ -137,6 +139,13 @@
 
     }
     .nav-link {
+        padding: .1rem 0;
+        width: 100%;
+        display: table;
+        font-size: 20px;
+    }
+
+    .nav-link-active {
         padding: .1rem 0;
         width: 100%;
         display: table;
