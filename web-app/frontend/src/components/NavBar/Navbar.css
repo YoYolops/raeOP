@@ -24,6 +24,7 @@
     list-style: none;
     text-align: start;
 }
+
 .listItem{
     border-top: 2px solid #2d3134;
     padding: 8px 0;
@@ -33,6 +34,13 @@
 }
 .nav-link {
     color: var(--text-color);
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-link-active {
+    color: var(--orange);
     text-decoration: none;
     font-size: 22px;
     font-family: 'Roboto Slab', serif;
