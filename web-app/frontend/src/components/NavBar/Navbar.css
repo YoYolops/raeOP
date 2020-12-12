@@ -28,6 +28,8 @@
 .listItem{
     border-top: 2px solid #2d3134;
     padding: 8px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .listItem:first-child{
