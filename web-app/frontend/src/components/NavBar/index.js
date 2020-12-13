@@ -41,14 +41,14 @@ class Navbar extends Component {
                 </div>
                 <ul className={this.state.bars_clicked ? 'nav-menu active' : 'nav-menu'}>
 
-                    <li className='listItem'><a className='nav-link' href='#overview'>Overview</a></li>
+                    <li className='listItem' id='major'><a className='nav-link' href='#overview'>Overview</a></li>
 
-                    <li className='listItem'><a href='#student_profile' onClick={this.handleClickProfile} className={this.state.profile_clicked ? 'nav-link-active' : 'nav-link'}>Perfil do Respondente</a></li>
+                    <li className='listItem' id='major'><a href='#student_profile' onClick={this.handleClickProfile} className={this.state.profile_clicked ? 'nav-link-active' : 'nav-link'}>Perfil do Respondente</a></li>
                     <Dropdown className={this.state.profile_clicked ? 'drop-menu active' : 'drop-menu'}>
                         <DropdownItem href='#quant_students'>Quantidade de Respondentes</DropdownItem>
                     </Dropdown>
 
-                    <li className='listItem'><a href='#about_rae' onClick={this.handleClickRae} className={this.state.rae_clicked ? 'nav-link-active' : 'nav-link'}>Sobre RAE</a></li>
+                    <li className='listItem' id='major'><a href='#about_rae' onClick={this.handleClickRae} className={this.state.rae_clicked ? 'nav-link-active' : 'nav-link'}>Sobre RAE</a></li>
                     <Dropdown className={this.state.rae_clicked ? 'drop-menu active' : 'drop-menu'}>
                         <DropdownItem href='#vac_offered'>Vagas Ofertadas</DropdownItem>
                         <DropdownItem href='#courses_taken'>Disciplinas Cursadas</DropdownItem>
@@ -60,7 +60,7 @@ class Navbar extends Component {
                         <DropdownItem href='#performance impact'>Impacto das Dificuldades</DropdownItem>
                     </Dropdown>
 
-                    <li className='listItem'><a href='#about_teacher' onClick={this.handleClickTeacher} className={this.state.teacher_clicked ? 'nav-link-active' : 'nav-link'}>Sobre Professores</a></li>
+                    <li className='listItem' id='major'><a href='#about_teacher' onClick={this.handleClickTeacher} className={this.state.teacher_clicked ? 'nav-link-active' : 'nav-link'}>Sobre Professores</a></li>
                     <Dropdown className={this.state.teacher_clicked ? 'drop-menu active' : 'drop-menu'}>
                         <DropdownItem href='#teacher_tolerance'>Tolerância dos Professores</DropdownItem>
                         <DropdownItem href='#performance_teachers'>Atuação dos Professores</DropdownItem>
@@ -70,13 +70,13 @@ class Navbar extends Component {
                         <DropdownItem href='#about_activities'>Sobre essas Atividades</DropdownItem>
                     </Dropdown>
 
-                    <li className='listItem'><a href='#about_institution' onClick={this.handleClickInstitution} className={this.state.institution_clicked ? 'nav-link-active' : 'nav-link'}>Sobre Instituição</a></li>
+                    <li className='listItem' id='major'><a href='#about_institution' onClick={this.handleClickInstitution} className={this.state.institution_clicked ? 'nav-link-active' : 'nav-link'}>Sobre Instituição</a></li>
                     <Dropdown className={this.state.institution_clicked ? 'drop-menu active' : 'drop-menu'}>
                         <DropdownItem href='#ufcg_performance'>Avaliação da UFCG</DropdownItem>
                         <DropdownItem href='#coordination_performance'>Desempenho das Coordenações</DropdownItem>
                     </Dropdown>
 
-                    <li className='listItem'><a className='nav-link' href='#metodologia'>Metodologia</a></li>
+                    <li className='listItem' id='major'><a className='nav-link' href='#metodologia'>Metodologia</a></li>
                 </ul>
             </nav>
         )

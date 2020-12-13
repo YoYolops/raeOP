@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     overflow-y: auto;
+    margin-left: 30px;
 }
 
 .NavbarItems::-webkit-scrollbar{
@@ -67,7 +68,7 @@
 
     .NavbarItems {
         position: absolute;
-        background: transparent;
+        background-color: transparent;
     }
 
     .menu-icon{
@@ -84,12 +85,12 @@
         margin: 5% 5%;
         box-shadow: 2px 2px 2px #999;
         position: fixed !important;
-        z-index: 5;
+        z-index: 11;
     }
 
     .nav-menu {
         margin: 0;
-        padding: 22% 10% 0% 10%;
+        padding: 10% 10% 0% 10%;
         display: flex;
         flex-direction: column;
         width: 400px;
@@ -100,12 +101,38 @@
     }
 
     .nav-menu.active {
-        background-color:  #1c1f23;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 400px;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 50%;
         opacity: 1;
-        z-index: 1;
-        left: 0;
         z-index: 10;
+        overflow-y: auto;
+        scrollbar-color: #2f3337 #2f3337;
     }
+
+    .nav-menu.active li {
+        background-color: #2f3337;
+        border: none;
+        border-bottom: 2px solid;
+        border-color: #1c1f23;
+        border-radius: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-menu.active #major {
+        background-color: #1c1f23;
+    }
+
+    .nav-menu.active::-webkit-scrollbar{
+        width: 0;
+    }
+
 }
 @media screen and (max-width: 650px){
     
@@ -113,7 +140,6 @@
         position: absolute;
         width: 100vw;
         background: transparent;
-        
     }
 
     .nav-menu {
@@ -128,18 +154,30 @@
     }
 
     .nav-menu.active {
+        width: 100%;
         background-color:  #1c1f23;
         opacity: 1;
         z-index: 1;
         left: 0;
         position: fixed;
         overflow-y: auto;
+        scrollbar-color: #1c1f23 #1c1f23;
+    }
+
+    .nav-menu.active #major {
+        border: none;
+        border-bottom: 2px solid;
+        border-color: rgb(19,19,19);
+    }
+
+    .nav-menu.active::-webkit-scrollbar{
+        width: 0;
     }
 
     .listItem{
         margin: 0 10%;
-
     }
+    
     .nav-link {
         padding: .1rem 0;
         width: 100%;
